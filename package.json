@@ -12,7 +12,11 @@
     "sqlite3": "^5.0.1",
     "websocket": "^1.0.33"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "2.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
