@@ -84,7 +84,7 @@ client.on("ready", () => {
     client.on("message", async (message) => {
       if (
         message.content.startsWith(PREFIX) &&
-        message.author.id == "387722383567618051"
+        message.member.hasPermission(["ADMINISTRATOR"])
       ) {
         const input = message.content.slice(PREFIX.length).trim().split(" ");
         const command = input.shift();
